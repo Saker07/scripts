@@ -1,0 +1,16 @@
+Install all packages:
+eslint
+prettier
+eslintprettier
+
+webpack
+webpack plugins
+jest
+babel
+
+this installs eslint and prettier
+npm install --save-dev eslint eslint-config-prettier
+npm install --save-dev --exact prettier
+echo {}> .prettierrc.json
+echo "# Ignore artifacts:\nbuild" > .prettierignore
+echo "Add this to .eslintrc.json:\n\"extends\": [\n    \"prettier\"\n  ]"
